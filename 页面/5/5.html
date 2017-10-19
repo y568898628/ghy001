@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script>
+			window.onresize=function(){				
+				window.location.reload()				
+			}			
+			var widths=document.documentElement.clientWidth;			
+			document.documentElement.style.fontSize=widths/25+"px"
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/5.css"/>
+		<link rel="stylesheet" type="text/css" href="iconfont/demo.css"/>
+		<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+		<script src="js/swiper.min.js"></script>
+	</head>
+	<body>
+		<!---->
+		<header>
+			<div class="hea-le"><p class="iconfont icon-back"></p></div>
+			<div class="hea-zho">欧美文化的抽象美感</div>
+			<div class="hea-ri">
+				<ul>
+					<li><p class="p1"></p><span class="iconfont icon-nav"></span><p>导航</p></li>
+				</ul>
+			</div>
+		</header>
+		<!---->
+		<div class="box1"></div>
+		<img src="img/2017-09-12_160628.jpg" alt="" class="img1"/>
+		<!---->
+		<div class="swiper-container swiper1">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><div class="div1"></div><p>卧室(3)</p></div>
+				<div class="swiper-slide"><div class="div1"></div><p>书房(1)</p></div>
+				<div class="swiper-slide"><div class="div1"></div><p>厨房(2)</p></div>
+				<div class="swiper-slide"><div class="div1"></div><p>客厅(7)</p></div>
+				<div class="swiper-slide"><div class="div1"></div><p>卫生间(3)</p></div>
+				<div class="swiper-slide"><div class="div1"></div><p>餐厅(3)</p></div>
+				<div class="swiper-slide"><div class="div1"></div><p>阳台(2)</p></div>
+				<div class="swiper-slide"><div class="div1"></div><p>卧室(5)</p></div>
+				<div class="swiper-slide"><div class="div1"></div><p>卧室(1)</p></div>
+			</div>
+			<hr color="#39C893"/>
+		</div>
+		<!---->
+		<div class="box2">
+			<div>
+				设计诠释：less is more 不需要过多的装饰，简单的墙面背景与简洁的家具即可组成一个温暖的家。
+			</div>
+		</div>
+		<!---->
+		<div class="box9 boxx">
+			<div>
+				<p>
+					房先森互联网家装有别于传统公司与其他装修中介平台，以自营模式整合设计师与项目经理，杜绝项目转外包，利用
+				互联网将工地进行在线全景直播，通过去中间环节，提供装修套餐+个性化定制服务。
+				</p>
+			</div>
+		</div>
+		<!---->
+		<footer>
+			<div><p class="iconfont icon-hot-line" style="font-size: 1.4rem;"></p><span> &nbsp;服务热线：400-9977-658</span></div>
+			<ul>
+				<li style="color:#39C893;">触屏版</li>
+				<li>电脑版</li>
+				<li>关于我们</li>
+				<li>联系我们</li>
+			</ul>
+		</footer>
+		<!---->
+		<div class="mb">
+			<span class="iconfont icon-design"></span><p>预约免费设计</p>
+		</div>
+	</body>
+	<script>
+		var myswiper=new Swiper(".swiper1",{
+			slidesPerView:5,
+			freeMode:true
+		})
+		
+		var mb=document.getElementsByClassName("mb")[0]
+		mb.onclick=function(){
+			mb.style.display="none"
+		}
+	</script>
+</html>

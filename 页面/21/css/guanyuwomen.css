@@ -1,0 +1,126 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: "微软雅黑"; }
+
+header {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between; }
+  header div:nth-of-type(1) {
+    margin: 0.16rem 0 0.16rem 0.18rem;
+    width: 30%; }
+    header div:nth-of-type(1) img {
+      width: 100%; }
+  header div:nth-of-type(2) {
+    font-size: 0.36rem;
+    color: #000; }
+  header div:nth-of-type(3) {
+    display: flex;
+    font-size: 0.22rem;
+    color: #999; }
+    header div:nth-of-type(3) li {
+      margin: 0 0.15rem; }
+      header div:nth-of-type(3) li span {
+        font-size: 0.38rem; }
+      header div:nth-of-type(3) li p {
+        font-size: 0.26rem; }
+
+banner {
+  width: 100%; }
+  banner img {
+    width: 100%; }
+
+.list {
+  width: 100%;
+  text-align: center;
+  padding: 0.26rem 0;
+  font-size: 0.36rem; }
+
+.item {
+  width: 95%;
+  margin: 0 auto;
+  border-top: 1px solid #eaeaea;
+  position: relative;
+  text-align: center; }
+  .item span {
+    width: 1.4rem;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    top: -0.28rem;
+    margin-left: -0.7rem; }
+    .item span img {
+      width: 100%; }
+
+.text1 {
+  width: 95%;
+  padding: 0 0.18rem;
+  font-size: 0.28rem;
+  color: #333;
+  margin: 0.36rem 0; }
+  .text1 p {
+    text-indent: 2em;
+    font-size: 0.28rem;
+    line-height: 0.48rem; }
+
+.box {
+  width: 100%;
+  background: #F4F4F4; }
+  .box div {
+    width: 100%;
+    text-align: center;
+    font-size: 0.36rem;
+    padding: 0.36rem 0; }
+  .box .item {
+    width: 95%;
+    margin: 0 auto;
+    border-top: 1px solid #eaeaea;
+    position: relative;
+    text-align: center; }
+    .box .item span {
+      width: 1.4rem;
+      background: #F4F4F4;
+      position: absolute;
+      left: 50%;
+      top: -0.28rem;
+      margin-left: -0.7rem; }
+      .box .item span img {
+        width: 100%; }
+  .box .img1 {
+    width: 100%; }
+    .box .img1 img {
+      width: 100%; }
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding-top: 0.32rem; }
+  footer span:nth-of-type(1) {
+    font-size: 0.32rem;
+    color: #2BB281; }
+  footer span:nth-of-type(2) {
+    font-size: 0.28rem;
+    color: #333;
+    margin-left: 0.12rem; }
+  footer ul {
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.32rem 0;
+    margin: 0 auto;
+    border-bottom: 1px solid #eaeaea; }
+    footer ul li {
+      font-size: 0.36rem; }
+    footer ul li:hover {
+      color: #2BB281; }
+  footer div {
+    padding: 0.5rem 0;
+    font-size: 0.22rem;
+    color: #999; }
+
+/*# sourceMappingURL=guanyuwomen.css.map */

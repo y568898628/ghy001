@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+body {
+  background: #F4F4F4; }
+
+header {
+  width: 100%;
+  height: 4rem;
+  background: white; }
+  header .hea-le {
+    width: 20%;
+    height: 100%;
+    float: left;
+    line-height: 4rem;
+    text-align: center; }
+    header .hea-le p {
+      font-size: 1.9rem;
+      color: #999999;
+      margin-left: -3rem; }
+  header .hea-zho {
+    width: 60%;
+    height: 100%;
+    float: left;
+    font-size: 1.2rem;
+    line-height: 4rem;
+    text-align: center; }
+  header .hea-ri {
+    width: 20%;
+    height: 100%;
+    float: right;
+    background: white; }
+    header .hea-ri ul {
+      width: 100%;
+      height: 100%;
+      list-style: none; }
+      header .hea-ri ul li {
+        width: 48%;
+        height: 100%;
+        float: right;
+        text-align: center; }
+        header .hea-ri ul li span {
+          font-size: 1.3rem;
+          color: #999999; }
+        header .hea-ri ul li p {
+          font-size: 0.7rem;
+          color: #999999; }
+        header .hea-ri ul li .p1 {
+          margin-top: 1rem; }
+
+.box1 {
+  width: 100%;
+  height: 4rem;
+  background: #202020; }
+
+.img1 {
+  width: 100%;
+  float: left; }
+
+.swiper1 {
+  width: 100%;
+  height: 5rem;
+  background: #202020;
+  color: white;
+  float: left; }
+  .swiper1 .swiper-wrapper {
+    width: 100%;
+    height: 100%; }
+    .swiper1 .swiper-wrapper .swiper-slide {
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      line-height: 4rem; }
+      .swiper1 .swiper-wrapper .swiper-slide .div1 {
+        width: 1rem;
+        height: 1rem;
+        border-radius: 50%;
+        border: 0.1rem solid #39C893;
+        margin: 0 auto;
+        margin-top: 1rem;
+        float: left;
+        margin-left: 1.8rem;
+        background: #202020; }
+      .swiper1 .swiper-wrapper .swiper-slide p {
+        width: 100%;
+        font-size: 0.9rem;
+        color: #39C893;
+        float: left;
+        margin-top: -0.5rem; }
+  .swiper1 hr {
+    width: 100%;
+    height: 0.001rem;
+    position: absolute;
+    top: 1.5rem;
+    left: 0; }
+
+.box2 {
+  width: 100%;
+  height: 8rem;
+  background: #202020;
+  float: left;
+  color: white;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.8rem; }
+  .box2 div {
+    width: 92%;
+    height: 80%; }
+
+.box9 {
+  height: 11rem;
+  float: left; }
+  .box9 div {
+    width: 92%;
+    height: 90%;
+    margin: 0 auto;
+    padding-top: 1.2rem; }
+    .box9 div p {
+      font-size: 1rem;
+      text-indent: 2rem;
+      line-height: 2.2rem; }
+
+footer {
+  width: 100%;
+  height: 6rem;
+  background: white;
+  margin-top: 0.8rem;
+  text-align: center;
+  padding-top: 1rem;
+  float: left; }
+  footer div {
+    width: 100%;
+    height: 2rem; }
+    footer div p {
+      float: left;
+      margin-left: 5.5rem;
+      color: #39C893;
+      margin-top: 0.1rem; }
+    footer div span {
+      font-size: 1.1rem;
+      float: left; }
+  footer ul {
+    width: 100%;
+    height: 3rem; }
+    footer ul li {
+      width: 25%;
+      height: 100%;
+      text-align: center;
+      float: left;
+      margin-top: 1rem;
+      font-size: 1.1rem; }
+
+.boxx {
+  width: 100%;
+  background: white;
+  margin-top: 0.8rem; }
+  .boxx .p1 {
+    float: left;
+    height: 2rem;
+    line-height: 2rem;
+    border-left: 0.3rem solid #3CC995;
+    font-size: 1.3rem;
+    letter-spacing: 0.3rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    width: 7rem; }
+  .boxx span {
+    margin-left: 0.2rem;
+    line-height: 4.4rem;
+    color: #999;
+    font-size: 0.8rem; }
+
+.mb {
+  width: 100%;
+  height: 4rem;
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+  background: rgba(255, 0, 63, 0.9);
+  color: white;
+  line-height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .mb span {
+    float: left;
+    font-size: 2.4rem; }
+  .mb p {
+    float: left;
+    font-size: 1.3rem;
+    margin-left: 1rem; }
+
+/*# sourceMappingURL=5.css.map */

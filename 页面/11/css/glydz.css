@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  background: #EAEAEA !important; }
+
+#top {
+  background: white;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3rem;
+  height: 4rem;
+  color: #999; }
+  #top img {
+    width: 35%; }
+  #top h3 {
+    color: black;
+    font-size: 1.2rem; }
+  #top p {
+    font-size: 0.6rem;
+    margin-top: 0.2rem; }
+  #top > div {
+    margin-top: 1.2rem; }
+    #top > div > div {
+      margin-left: 1rem; }
+
+#xq {
+  font-size: 0.64rem;
+  padding: 0.6rem;
+  background: white; }
+  #xq > p:nth-of-type(1) {
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; }
+    #xq > p:nth-of-type(1) > span {
+      background: #00BE9C;
+      font-size: 0.55rem;
+      margin-left: 1rem;
+      width: 3rem;
+      display: block;
+      height: 0.8rem;
+      text-align: center;
+      line-height: 0.8rem;
+      color: white;
+      border-radius: 0.1rem; }
+  #xq .span {
+    margin-left: 1.3rem; }
+  #xq .grey {
+    color: gray; }
+  #xq #pl {
+    display: flex;
+    justify-content: center; }
+    #xq #pl > div {
+      width: 50%;
+      height: 2rem;
+      font-size: 0.8rem;
+      border: 0.03rem solid lightgrey;
+      text-align: center;
+      line-height: 2rem; }
+      #xq #pl > div > span:not(.glyphicon) {
+        margin-left: 0.6rem; }
+    #xq #pl > div:nth-of-type(1) {
+      color: #1B9AF7; }
+    #xq #pl > div:nth-of-type(2) {
+      color: #00BE9C; }
+
+#shiy {
+  font-size: 1rem;
+  padding-left: 1rem;
+  padding-top: 1rem; }
+  #shiy p:nth-of-type(1) {
+    font-size: 0.8rem; }
+
+.bbox:nth-of-type(2) .box {
+  top: -0.8rem; }
+.bbox:nth-of-type(2) p {
+  margin-top: -0.7rem; }
+
+.bbox:nth-of-type(3) {
+  padding-bottom: 0rem; }
+  .bbox:nth-of-type(3) .box {
+    top: -0.8rem; }
+  .bbox:nth-of-type(3) p {
+    margin-top: -0.7rem; }
+
+.bbox {
+  position: relative;
+  padding-top: 2rem;
+  padding-left: 2.6rem;
+  margin-top: 0.5rem;
+  padding-bottom: 1rem; }
+  .bbox .box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: -0.75rem;
+    font-size: 0.76rem; }
+    .bbox .box .yuan {
+      width: 1.5rem;
+      height: 1.5rem;
+      background: #00BE9C;
+      border-radius: 100%; }
+    .bbox .box .xian {
+      border-top: 0.05rem solid #00BE9C;
+      width: 1.8rem;
+      height: 0; }
+    .bbox .box .date {
+      background: gainsboro;
+      width: 4.5rem;
+      height: 1.6rem;
+      text-align: center;
+      line-height: 1.6rem;
+      color: darkgray; }
+    .bbox .box .nm {
+      background: #00BE9C;
+      width: 2.5rem;
+      height: 1.6rem;
+      text-align: center;
+      line-height: 1.6rem;
+      color: white; }
+    .bbox .box .ys {
+      background: #00BE9C;
+      width: 4.5rem;
+      height: 1.6rem;
+      text-align: center;
+      line-height: 1.6rem;
+      color: white;
+      background: #FEB605;
+      margin-left: 0.5rem; }
+  .bbox .cg img {
+    width: 30%;
+    margin: 0.05rem; }
+
+#jieshao {
+  font-size: 0.9rem;
+  background: white;
+  margin-top: 1rem;
+  padding: 0.4rem; }
+
+#kf {
+  text-align: center;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  background: white;
+  padding-bottom: 0.5rem; }
+  #kf p {
+    color: #00B2B2;
+    font-size: 0.8rem; }
+  #kf span {
+    margin-left: 1rem;
+    font-size: 0.8rem;
+    color: black; }
+  #kf > div {
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.7rem;
+    margin-top: 1rem; }
+
+#bottom {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: space-between !important;
+  align-items: flex-start;
+  height: 4rem; }
+  #bottom #x {
+    width: 1.5rem;
+    height: 1.5rem; }
+  #bottom #free {
+    width: 12rem;
+    margin-top: 1rem; }
+  #bottom > button {
+    background: #feb605;
+    margin-top: 1.4rem;
+    border-radius: 15rem;
+    color: white;
+    font-size: 0.7rem; }
+
+#dingzhi div {
+  font-size: 2rem;
+  border-radius: 50%;
+  background: white;
+  line-height: 2.6rem;
+  padding-left: 0.24rem;
+  width: 3rem;
+  height: 3rem;
+  position: fixed;
+  top: 20rem;
+  right: 0;
+  border: 0.2rem solid gainsboro; }
+
+/*# sourceMappingURL=glydz.css.map */

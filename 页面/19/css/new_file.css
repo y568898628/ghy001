@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+header {
+  width: 100%;
+  height: 0.51rem;
+  padding: 0 0 0.1rem 0;
+  display: flex;
+  justify-content: space-around; }
+  header .hea-le {
+    width: 50%;
+    height: 100%;
+    float: left; }
+    header .hea-le img {
+      width: 1.16rem;
+      height: 0.44rem;
+      margin-top: 0.06rem;
+      margin-left: 0.085rem; }
+  header .hea-zho {
+    width: 37%;
+    height: 100%;
+    float: left;
+    font-size: 0.18rem;
+    line-height: 0.6rem;
+    text-align: center;
+    margin-left: 0.3rem; }
+  header .hea-ri {
+    width: 50%;
+    height: 100%;
+    float: left; }
+    header .hea-ri ul {
+      width: 100%;
+      height: 100%;
+      list-style: none; }
+      header .hea-ri ul li {
+        height: 100%;
+        float: right;
+        text-align: center;
+        margin-right: 0.1rem; }
+        header .hea-ri ul li span {
+          font-size: 0.16rem;
+          color: #999999; }
+        header .hea-ri ul li p {
+          font-size: 0.16rem;
+          color: #999999; }
+        header .hea-ri ul li .p1 {
+          margin-top: 0.08rem; }
+
+hr {
+  border: 0.01rem solid #eaeaea; }
+
+.div-1 {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 0.18rem; }
+  .div-1 .a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .div-1 .a .a1 {
+      width: 0.3rem;
+      height: 0.3rem;
+      line-height: 0.3rem;
+      background-color: #dcdcdc;
+      border-radius: 50%;
+      text-align: center;
+      color: white; }
+    .div-1 .a .b1 {
+      font-size: 0.12rem;
+      color: #999; }
+    .div-1 .a .s1 {
+      margin-left: -2rem;
+      font-size: 0.12rem;
+      color: #39c896; }
+  .div-1 .c1 {
+    font-size: 0.18rem;
+    color: #000;
+    margin-top: 0.18rem; }
+
+.box2 {
+  width: 94%;
+  height: 0.425rem;
+  margin: 0 auto;
+  margin-bottom: 0.12rem; }
+  .box2 div {
+    float: left;
+    width: 1.165rem;
+    height: 0.425rem;
+    background: #39C894;
+    color: white;
+    font-size: 0.16rem;
+    text-align: center;
+    line-height: 0.425rem; }
+  .box2 .butt {
+    width: 1.165rem;
+    height: 0.425rem;
+    font-size: 0.16rem;
+    background: white;
+    color: #000000; }
+
+.txt1 {
+  width: 100%;
+  font-size: 0.14rem;
+  text-indent: 0.2rem;
+  border-bottom: 0.1rem solid #F4F4F4; }
+
+.bottom {
+  width: 100%;
+  text-align: center; }
+  .bottom ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.18rem; }
+    .bottom ul li {
+      width: 25%; }
+
+.bottom_p {
+  font-size: 0.16rem;
+  color: #999999; }
+
+.mb {
+  width: 100%;
+  height: 0.725rem;
+  background: black;
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9); }
+  .mb .img1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0.24rem;
+    height: 0.24rem; }
+  .mb .img2 {
+    width: 0.54rem;
+    height: 0.47rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.4rem; }
+  .mb .p1 {
+    color: #eed215;
+    position: absolute;
+    top: 0.1rem;
+    left: 1.1rem;
+    font-size: 0.16rem; }
+  .mb .p2 {
+    color: white;
+    position: absolute;
+    top: 0.4rem;
+    left: 1.1rem;
+    font-size: 0.16rem; }
+  .mb button {
+    width: 1rem;
+    height: 0.25rem;
+    background: #feb605;
+    border: none;
+    border-radius: 0.5rem;
+    position: absolute;
+    top: 0.2rem;
+    right: 0.01rem;
+    color: white;
+    font-size: 0.16rem; }
+
+.di {
+  width: 100%; }
+  .di img {
+    width: 100%;
+    position: fixed;
+    top: 4.15rem; }
+
+.touming {
+  width: 100%;
+  height: 2rem;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0.6rem; }
+
+.Files {
+  width: 100%;
+  height: 1.6rem;
+  position: fixed;
+  top: 2.6rem;
+  background: #F4F4F4; }
+  .Files .top {
+    float: left;
+    margin-left: 0.8rem;
+    margin-top: 0.1rem; }
+    .Files .top span {
+      font-size: 0.18rem; }
+    .Files .top div {
+      font-size: 0.12rem;
+      width: 0.66rem;
+      height: 0.3rem;
+      background: #949494;
+      line-height: 0.3rem;
+      text-align: center;
+      border-radius: 0.05rem; }
+
+/*# sourceMappingURL=new_file.css.map */
